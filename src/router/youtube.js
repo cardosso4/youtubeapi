@@ -41,8 +41,7 @@ router.get("/search/:pesquisa/:limite/:user_id", async (req, res) => {
         }
     }
 
-    return res.json(dados);
-    // return res.json(await youtube.pesquisaYoutube(dados.pesquisa,dados.limite));
+    return res.json(await youtube.pesquisaYoutube(dados.pesquisa,dados.limite));
 });
 
 module.exports = router;
