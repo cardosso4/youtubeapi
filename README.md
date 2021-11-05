@@ -1,2 +1,15 @@
-# youtubeapi
-Api em Node.js para consumo da api_youtube com interação com banco de dados MySql
+-------------------------------------------
+COMO RODAR O PROJETO
+-------------------------------------------
+
+//Instalar todas as dependencias indicada no package.json
+npm install
+
+//Rodar a migrations
+Ir no diretorio ./db e rodar comando
+node migradb.js
+
+Na raiz do projeto rodar comando
+node app.js
+ou
+nodemon app.js
